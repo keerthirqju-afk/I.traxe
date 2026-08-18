@@ -1,0 +1,64 @@
+/* Sleek dark gradient background aesthetic */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    color: #ffffff;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+}
+
+/* Force tagline onto a single line and apply clean gradient text */
+.main-tagline {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    white-space: nowrap; 
+    background: linear-gradient(to right, #38bdf8, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+/* Updated pricing container card layout */
+.price-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px;
+    display: inline-block;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #94a3b8;
+    margin: 5px 0;
+}
+
+.new-price {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #34d399;
+    margin: 5px 0 20px 0;
+}
+
+.buy-btn {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
